@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINUXEROS</title>
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegación</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        nav {
+            background-color: #0a0a0a;
+            display: flex;
+            justify-content: center;
+            padding: 1em;
+            box-shadow: 0 4px 6px rgba(0, 26, 255, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: rgb(0, 255, 179);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            position: relative;
+            padding: 5px 0;
+            transition: color 0.3s ease;
+        }
+
+        nav a::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 2px;
+            width: 0;
+            background: #00aaff;
+            transition: width 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #00aaff;
+        }
+
+        nav a:hover::after {
+            width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav a {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.css" />
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.js"></script>
+
+<div class="clock"></div>
+
+<script>
+  $(document).ready(function() {
+    var clock = $('.clock').FlipClock({
+      clockFace: 'TwentyFourHourClock',
+      showSeconds: true
+    });
+  });
+</script>
+
+<nav>
+    <a href="../principal/index.html">Inicio</a>
+    <a href="../Info/index.html">Información</a>
+    <a href="../Tutorial/index.html">Tutoriales</a>
+    <a href="../Contactanos/Untitled-1.html">Contactos</a>
+</nav>
+
+
+        </section>
+    </header>
+
+    <main>
+        <section class="services">
+            <div class="container">
+                <h2 class="subtitle">Tutorial para instalar las distribuciones mas utilizadas<span class="point"></span></h2>
+
+                <article class="container-cards">
+                    <div class="card">
+                        <img src="img/img1" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">ARCH LINUX</p>
+                            <p class="card__copy">Instalacion de manera sencilla</p>
+                            <a href="https://youtu.be/NkXTqfmGz00?feature=shared" class="card__button">TUTORIAL</a>
+                        </div>
+                    </div>
+                     <div class="card">
+                        <img src="img/img2" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">LINUX MINT</p>
+                            <p class="card__copy">Instalacion de manera sencilla</p>
+                            <a href="https://youtu.be/qeyOQE0nzMU?feature=shared" class="card__button">TUTORIAL</a>
+                        </div>
+                    </div>
+                     <div class="card">
+                        <img src="img/img3.jpg" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">FEDORA</p>
+                            <p class="card__copy">Instalacion de manera sencilla</p>
+                            <a href="https://youtu.be/_CZvzGj4feg?feature=shared" class="card__button">TUTORIAL</a>
+                        </div>
+                    </div>
+                      <div class="card">
+                        <img src="img/img4.png" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">UBUNTU</p>
+                            <p class="card__copy">Instalacion de manera sencilla</p>
+                            <a href="https://youtu.be/89Top1FcRQ8?feature=shared" class="card__button">TUTORIAL</a>
+                        </div>
+                    </div>
+                      <div class="card">
+                        <img src="img/img5.png" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">DEBIAN</p>
+                            <p class="card__copy">Instalacion de manera sencilla</p>
+                            <a href="https://youtu.be/FbhpzXRmVu8?feature=shared" class="card__button">TUTORIAL</a>
+                        </div>
+                    </div>
+                     <div class="card">
+                        <img src="img/img6.png" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">MANJARO</p>
+                            <p class="card__copy">Instalacion de manera sencilla</p>
+                            <a href="https://youtu.be/k6Y4BabUEwo?feature=shared" class="card__button">TUTORIAL</a>
+                        </div>
+                    </div>
+                     <div class="card">
+                        <img src="img/img7" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">KALI LINUX</p>
+                            <p class="card__copy">Instalacion de manera sencilla</p>
+                            <a href="https://youtu.be/l7tOwFhHe4A?feature=shared" class="card__button">TUTORIAL</a>
+                        </div>
+                    </div>
+                     <div class="card">
+                        <img src="img/img8.jpg" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">PARROT OS</p>
+                            <p class="card__copy">Instalacion de manera sencilla</p>
+                            <a href="https://youtu.be/VTAjOHLoe-I?feature=shared" class="card__button">TUTORIAL</a>
+                        </div>
+                    </div>
+                 <div class="card">
+                        <img src="img/img9.jpg" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">BLACKARCH</p>
+                            <p class="card__copy">Instalacion de manera sencilla</p>
+                            <a href="https://youtu.be/jpF4NU1u7oM?feature=shared" class="card__button">TUTORIAL</a>
+                        </div>
+                    </div>
+                      
+                         </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Celular:</h4>
+                <p>+50251848844</p>
+            </div>
+            <div class="content-foo">
+                <h4>Correo</h4>
+                <p>hcoronadof@miumg.edu.gt</p>
+            </div>
+            <div class="content-foo">
+                <h4>Ubicacion</h4>
+                <p>San Marcos, Guatemala</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">Guillermo</h2>
+    </footer>
+</body>
+
+</html>
+            
+</html>
